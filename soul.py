@@ -13,17 +13,18 @@ import itertools
 # Firebase credentials (note: the private key should be stored securely)
 firebase_credentials = {
   "type": "service_account",
-  "project_id": "new-season-5d0dc",
-  "private_key_id": "50ecf02872905d72bce290cf06c506e78423c7ff",
-  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDABBVntnmm2DHA\n5Q22+ZYNsDu7G5La9X2mEBwPDtRqSPvpKmrYhqhSEQeotfVg2GshO5hUeWnx5NuB\nU2GMM/7Jlo8ZtH5tCFLSPTBlpWtKVYqi1OydAhUlMoVQdyrQ9TK/C5WNyUpkCzYA\nQIf0QloTLspE3I/i0Pp1WJrxm6/ovuodn9AZgOmOo1ZScpWi8kU8f8VnhqMlPFui\nlbOGIq2R/gvT8/DCkIYQrTQ2ETHtBLldPA1XvtNbv9Q/kbpzAeOkYkOP35/TnShB\nTxoDk01hPy5z7lWcAAwsf4I6mEKGVEqD4tPn0sK+UH4WlsvT+picvkF+ek4BZRqx\n813cygDbAgMBAAECggEAAzJONOrJvahNs7tcbhZblCDB7cx4tmJt1AzimrGRga9z\nWh9VpgMf3DXiXcGhsxoHNodqcsWOqPM5YD7GGfJnpG14NmJV1HTWBB/2pUqKrbMc\n2rcWtUpqlbLwmzVQpifez2Ve+PxH28CABqMMYFmWbElUHq9ZSdpWwQtXkPwZgpNb\npAa9tQFO6od7I3xtNwNCCJEoPuCRpSQSomNvHLkbmc161uA1s4/MLHQ74s6EUXaU\nFiKqXksMX87CIw3LNAS6sZows5CTjEndJifvNh5+BhltQgFKdRlUnE5Wmfv8JIzC\niAFpObQl258IVovL7uMNME86M0XHtszU4NwJO9/IIQKBgQDxCjsEIwUpDTJy7x/C\nHhRb21D8hz51LOhZ1i96Q/6vSRycK39YCeFXfKD1OViRTfLQe+F7+qS7xCRP0hqt\nUXzL7eDvCTA2HNbTK8odvQTBZLpcTX0hykjnEovD8DnK0BzggJ5yGxk/V0dejD1b\nsQwxeTXzFjs2A9ljPA3rPm9q8QKBgQDL7u8RAjZQnfmH4iKPIjRAPXi+EwJd5/gT\n/iDiov+MCFVvkxdOZFQzcmXNLH6j6T4hBzCutEr6D3smJL2ep/0QmH9huU3F9kR4\nRsaZthVvdI1rRf2lxCfX/N4tcAJ0xUG4NI558QHjMVPAI07ENuE+sd2ZJHAjWhp1\nIL1NGJnwiwKBgAVibR8SiTL5kH7wyIzVjy7eH1kEzGhhsG8RUc4xZqcTwwfaEOYu\nklIZ/p57wXa9fwcZPVg/qR5oq0b9MotcnqUPk07DrcgHrOTavZEcf9ayIVeeg4UV\nt7sxtt2RqDjXnU2GkgOKh23azUVXbKd3tQYF5yafAIOcYmbNGKKAqoyBAoGAd6fA\n47Ttk42tXJpFdsA18j9fOf9DU0AJIgno17GVyV8WafnfIeLiOLF1o9XolFoFVzG1\n0bv9hg1RT4cdLxsX9AXWL8ufI3kkoYG9g3D/0L6NP5T4h6u5SRSYdAaVmlgnAGLt\n+gR7/Ab0Qfc1fxFIRhXslK95kHSMs467I6I8qJMCgYEA3qZyoBfNxpXWaqruFRzw\n0XO1gVAOJrb3yg3rYLbMDPSg4GsVkUCj5JPVaZh0q8RuCn0RludeVuQYtnuPfPTq\nfeOw84PpDmn2sTkccsKPKGgjEI/SEiZYsOMXRVOHVLXT0HNiE9Kn7L1ZvlUDZQWH\nHPzDEtsBMBQ+gxKTIpWh2+A=\n-----END PRIVATE KEY-----\n",
-  "client_email": "firebase-adminsdk-63k0y@new-season-5d0dc.iam.gserviceaccount.com",
-  "client_id": "108059236553667184992",
+  "project_id": "ddos-f91d8",
+  "private_key_id": "7a684afa7371ed62612efaf00aef52d69c37f575",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC7kRBECEO55nOT\nmq/weu50tMXVqQ2JCbG0dKQuM5Jt15zHTS+9wUtVyaPOzq5Onblndsw4J38TGuT8\njGCLLPrGL/tzhFWo/lztItH80W/0153DYgelbM5OJs0N02TZHckHe28SBGXy5Dpy\n8hSvwa9JDTtZcq+zlUxqmLDVmkjhXMRLm5vN99HCJVzD2bMgiv6TFIfpT00wo/bB\n0rWgpX3up43Vx9jc+oQEQn4TjpDhc7LXafCOi2U6LVI8GjMFtJ3oL8DS7pnpcsal\nipDrM5+StlS2vkNhvKcSb+z5N9MUpOt9+pQw4pZEXoES9nRxN5xsp3R6bpildzXb\nWKgmKoH9AgMBAAECggEAA+kfKn8oA+6ggKm8LiQuzizp5jqDSogmAsBfBYrHUslc\nC3IgiX3hap7gCD/NT1y0F0qMZEW7Vu3Va5T04YuRu7zkXgdngc5/DkxB9I0PuIGG\nWIlPf4BCDOV7zcrKheK8Sw7XxTH/FI4nNp5PFoFpr8XTpvNgYzrwDO9O2iVAjIvj\nDFy2u2fMo+DGx1rJNGNDYHc8RzyQsLRGgwwKJEbihN8DTEauJgZ9z6aVylo2woKb\n5oE2Jufwv9JbudJd0Ru4V6lwl90ZUmWLYMG15Zp47vf+BhWTKP8sMV/XYti5buWZ\nqfLuHz+WcLuqqA78OXzcfNBoqffNgDOvmwITNBwCQQKBgQDl4mOKUfBqNAU0aswC\ng8sYGIIEurTxCnp4OPC3CU+mFfgBjYfC0vlIIDAraHPlo6lmjCYkVVc85p7eyHiI\nvNZLXn3+2BcYE4sKplcdjp7neuc/qLpOUjPIYb69wmRRpe7cURKdI6qrVTl2huHW\nnjcJoHraJnKcX/WbuUTkpF4cxwKBgQDQ3/iJqxFJyfaXiVKH/7wMJnK/a+WdaPqT\n8ewdG6O1ROn4eyPA7Fuk23Q56XRj6UyxtLlVMcRo0hMunye6a6cxh4/WHqWGIHWk\nCL1Lnw9MNQM0lzvHw45+ECk/f1lMcePRghQEbsWKWXdw9/0IJwhyaKJIpW7lMEzh\nH1092hO/GwKBgCKMIDt0TvYW9UVIW3pxRf9MB5YgXPrwgTE6FWrcelzSZmANXf64\naAAf3j1XyDsVmmqv2zeQn7imS+/dHsgl4OqYu8Slwuq6XSXvk538hgLxpHkbqUwF\n7IRLtDeeVCc1Ea2IfYyiBI8VErquUJhJVKoctPm913GKtkV91U2rKf2XAoGARNKn\nd+UP6zpKsB+lO/59nZtFj+EjZTxj5D+ARw8GYAH2/dLFMxouECHnJ/XOTeVfSeZ8\ncp/VUZx2iZQTaQ9zpZQ/RpQOgiVL3eKrTLF6PufwyHFUVzwORWdZz/xMFi4onK25\nnsRI/o8AFg8AJqGF3PyxDDLGWWoSytKkzG6AtyUCgYEAtXrGv1LBSBRpI7R+SJvt\nlEahFNLfxP6z/J5NRhIo3aBTQpK8iq9yq8DL8Z94jw12YWZf3/JqbFrOYMsW0F1B\nCgo4Gh8OoI1ayNDbO42DnmVwH5/tvsLrXF3DWLbwk/aDhpWJPyJpnxWY5fm5el7l\nNhuhZdK6wypcgQS6/gt9R5Q=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-1djdw@ddos-f91d8.iam.gserviceaccount.com",
+  "client_id": "113067721621360421547",
   "auth_uri": "https://accounts.google.com/o/oauth2/auth",
   "token_uri": "https://oauth2.googleapis.com/token",
   "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-63k0y%40new-season-5d0dc.iam.gserviceaccount.com",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-1djdw%40ddos-f91d8.iam.gserviceaccount.com",
   "universe_domain": "googleapis.com"
 }
+
 
 
 
@@ -237,7 +238,7 @@ def handle_stop(message):
     bot.reply_to(message, "🛑 Attack stopped.")
 
 def handle_contact_admin(message):
-    bot.reply_to(message, f"📞 @SOULCRACKS: {ADMIN_ID}")
+    bot.reply_to(message, f"📞 @Rishi747: {ADMIN_ID}")
 
 def handle_generate_key(message):
     if message.from_user.id == ADMIN_ID:
